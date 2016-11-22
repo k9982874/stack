@@ -2,10 +2,6 @@ Stack - a distributed file storage service
 ===========================
 This is a distributed file storage service, the back-end through a variety of different drivers can be achieved with distributed file storage, front-end with HAProxy achieve high availability.
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Linux Build][travis-image]][travis-url]
-
 Installing
 ----------
 ```bash

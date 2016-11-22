@@ -2,10 +2,6 @@ Stack - 分布式文件存储服务
 ===========================
 这是一个分布式文件存储服务，后端通过配合多种不同驱动可以实现分布式文件存储，前端配合`HAProxy`实现高可用性。
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Linux Build][travis-image]][travis-url]
-
 安装
 ----
 ```bash
