@@ -9,51 +9,49 @@ This is a distributed file storage service, the back-end through a variety of di
 Installing
 ----------
 ```bash
-    git clone http://<git-repo-url>/stack
-    cd stack
-    npm install
-    node_modules/.bin/typings install
+git clone http://<git-repo-url>/stack
+cd stack
+npm install
+node_modules/.bin/typings install
 ```
 
 Usage
 -----
 ```bash
-    npm run grunt serve
+npm run grunt serve
 ```
 
 API
 ---
-    "upload"
-    Accepts a `POST` request of type `multipart/form-data` and saves the data in the `file` field of the request to `local`.
+"upload"
+Accepts a `POST` request of type `multipart/form-data` and saves the data in the `file` field of the request to `local`.
 
-    "file"
-    Accept the `GET` request to get the saved file from `local`.
+"file"
+Accept the `GET` request to get the saved file from `local`.
 
 
 Supported storage drivers
 -------------------------
-    "disk"
-    Local disk drive, through this drive with `moosefs`, `GlusterFS`, `ceph` and other distributed file system can support distributed storage.
+"disk"
+Local disk drive, through this drive with `moosefs`, `GlusterFS`, `ceph` and other distributed file system can support distributed storage.
 
-    "ftp"
-    ftp driver.
+"ftp"
+ftp driver.
 
-    "hdfs"
-    hdfs driver.
-    [hdfs driver.](https://hadoop.apache.org/)
+"hdfs"
+[hdfs driver.](https://hadoop.apache.org/)
 
-    "maria"
-    [maria driver.](https://mariadb.org/)
+"maria"
+[maria driver.](https://mariadb.org/)
 
-    "memcached"
-    [memcached driver.](https://memcached.org/)
+"memcached"
+[memcached driver.](https://memcached.org/)
 
-    "mongo"
-    mongodb driver.
-    [mongodb driver.](https://www.mongodb.com/)
+"mongo"
+[mongodb driver.](https://www.mongodb.com/)
 
-    "pg"
-    [postgresql driver.](https://www.postgresql.org/)
+"pg"
+[postgresql driver.](https://www.postgresql.org/)
 
-    "redis"
-    [redis driver.](http://redis.io/)
+"redis"
+[redis driver.](http://redis.io/)
